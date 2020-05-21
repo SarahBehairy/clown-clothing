@@ -1,6 +1,6 @@
 import React from 'react';
 import './cart-item.styles.scss';
-import {connect} from 'react-redux';
+
 
 const CartItem = ({item: {imageUrl, price, name, quantity}}) => (
     <div className='cart-item'>
@@ -11,5 +11,6 @@ const CartItem = ({item: {imageUrl, price, name, quantity}}) => (
         </div>
     </div>
 );
+
 
 export default CartItem;
